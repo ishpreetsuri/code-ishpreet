@@ -1,0 +1,140 @@
+/* Faculty Management System — styles
+   Author: Ishpreet Singh */
+
+:root {
+  --bg: #0f172a;
+  --bg-soft: #1e293b;
+  --card: #ffffff;
+  --text: #1e293b;
+  --muted: #64748b;
+  --primary: #4f46e5;
+  --primary-dark: #4338ca;
+  --danger: #dc2626;
+  --border: #e2e8f0;
+  --shadow: 0 10px 30px rgba(2, 6, 23, 0.08);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  background: linear-gradient(180deg, #f1f5f9 0%, #e2e8f0 100%);
+  color: var(--text);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.topbar {
+  background: linear-gradient(135deg, var(--bg) 0%, #312e81 100%);
+  color: #fff;
+  padding: 28px 20px;
+}
+.brand { display: flex; align-items: center; gap: 16px; max-width: 1000px; margin: 0 auto; }
+.logo { font-size: 42px; }
+.topbar h1 { font-size: 1.6rem; }
+.subtitle { color: #c7d2fe; font-size: 0.9rem; margin-top: 2px; }
+
+/* Layout */
+.container { width: 100%; max-width: 1000px; margin: 0 auto; padding: 24px 20px; flex: 1; }
+
+.card {
+  background: var(--card);
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+  padding: 24px;
+  margin-bottom: 22px;
+}
+.card h2 { font-size: 1.2rem; margin-bottom: 18px; }
+
+/* Form */
+.field { margin-bottom: 16px; display: flex; flex-direction: column; }
+.field label { font-size: 0.82rem; font-weight: 600; color: var(--muted); margin-bottom: 6px; }
+.field input {
+  padding: 11px 13px;
+  border: 1px solid var(--border);
+  border-radius: 9px;
+  font-size: 0.95rem;
+  transition: border-color .15s, box-shadow .15s;
+}
+.field input:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.15);
+}
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+
+.actions { display: flex; gap: 10px; margin-top: 6px; }
+.btn {
+  padding: 11px 20px;
+  border: none;
+  border-radius: 9px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background .15s, transform .05s;
+}
+.btn:active { transform: translateY(1px); }
+.btn.primary { background: var(--primary); color: #fff; }
+.btn.primary:hover { background: var(--primary-dark); }
+.btn.ghost { background: #f1f5f9; color: var(--muted); }
+.btn.ghost:hover { background: #e2e8f0; }
+
+/* Toolbar */
+.toolbar { display: flex; align-items: center; gap: 14px; margin-bottom: 18px; }
+#searchInput {
+  flex: 1;
+  padding: 12px 15px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  font-size: 0.95rem;
+}
+#searchInput:focus { outline: none; border-color: var(--primary); }
+.count {
+  background: #e0e7ff;
+  color: var(--primary-dark);
+  padding: 7px 13px;
+  border-radius: 20px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* Table */
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: 13px 12px; font-size: 0.9rem; }
+th { color: var(--muted); font-size: 0.78rem; text-transform: uppercase; letter-spacing: .04em; border-bottom: 2px solid var(--border); }
+td { border-bottom: 1px solid var(--border); }
+tr:last-child td { border-bottom: none; }
+tbody tr:hover { background: #f8fafc; }
+.right { text-align: right; }
+
+.row-actions { display: flex; gap: 8px; justify-content: flex-end; }
+.icon-btn {
+  border: none;
+  background: #f1f5f9;
+  padding: 6px 11px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+.icon-btn.edit { color: var(--primary-dark); }
+.icon-btn.edit:hover { background: #e0e7ff; }
+.icon-btn.delete { color: var(--danger); }
+.icon-btn.delete:hover { background: #fee2e2; }
+
+.empty { text-align: center; color: var(--muted); padding: 30px 0; }
+.hidden { display: none; }
+
+/* Footer */
+.footer { text-align: center; padding: 22px; color: var(--muted); font-size: 0.85rem; }
+.footer a { color: var(--primary); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+
+@media (max-width: 600px) {
+  .grid-2 { grid-template-columns: 1fr; }
+  .topbar h1 { font-size: 1.3rem; }
+}
