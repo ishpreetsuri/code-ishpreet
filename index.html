@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Faculty Management System</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">🎓</span>
+      <div>
+        <h1>Faculty Management System</h1>
+        <p class="subtitle">Organize faculty data and contact information</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Add / Edit form -->
+    <section class="card form-card">
+      <h2 id="formTitle">Add Faculty Member</h2>
+      <form id="facultyForm" autocomplete="off">
+        <input type="hidden" id="editId" value="" />
+
+        <div class="field">
+          <label for="name">Full Name *</label>
+          <input type="text" id="name" placeholder="e.g. Dr. Harpreet Kaur" required />
+        </div>
+
+        <div class="grid-2">
+          <div class="field">
+            <label for="department">Department *</label>
+            <input type="text" id="department" placeholder="e.g. Computer Science" required />
+          </div>
+          <div class="field">
+            <label for="designation">Designation</label>
+            <input type="text" id="designation" placeholder="e.g. Assistant Professor" />
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <div class="field">
+            <label for="email">Email *</label>
+            <input type="email" id="email" placeholder="name@university.edu" required />
+          </div>
+          <div class="field">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" placeholder="9876543210" />
+          </div>
+        </div>
+
+        <div class="actions">
+          <button type="submit" class="btn primary" id="submitBtn">Add Faculty</button>
+          <button type="button" class="btn ghost hidden" id="cancelBtn">Cancel</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- Search + stats -->
+    <section class="toolbar">
+      <input type="search" id="searchInput" placeholder="🔍 Search by name, department, or email..." />
+      <span class="count" id="count">0 faculty</span>
+    </section>
+
+    <!-- List -->
+    <section class="card list-card">
+      <div class="table-wrap">
+        <table id="facultyTable">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Department</th>
+              <th>Designation</th>
+              <th>Email</th>
+              <th>Phone</th>
+              <th class="right">Actions</th>
+            </tr>
+          </thead>
+          <tbody id="facultyBody"></tbody>
+        </table>
+      </div>
+      <p class="empty hidden" id="emptyState">No faculty members yet. Add one using the form above. 👆</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Built by <strong>Ishpreet Singh</strong> · HTML · CSS · JavaScript ·
+      <a href="https://www.linkedin.com/in/ishpreet-singh-a81920291" target="_blank" rel="noopener">LinkedIn</a>
+    </p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
