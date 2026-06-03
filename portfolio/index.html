@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ishpreet Singh — Portfolio</title>
+  <meta name="description" content="Portfolio of Ishpreet Singh, B.Tech Computer Science student and web developer." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <a href="#home" class="nav-logo">Ishpreet Singh</a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header id="home" class="hero">
+    <div class="hero-inner">
+      <p class="hero-greet">Hi, I'm</p>
+      <h1>Ishpreet Singh</h1>
+      <p class="hero-role">Computer Science Student · Web Developer · Founder of Cocokart</p>
+      <p class="hero-tag">
+        B.Tech Computer Science student at Guru Nanak Dev University, Jalandhar,
+        building websites and learning to turn ideas into working software.
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn primary">View My Work</a>
+        <a href="#contact" class="btn ghost">Get in Touch</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <h2 class="section-title">About Me</h2>
+    <div class="about">
+      <p>
+        I am a B.Tech Computer Science student at Guru Nanak Dev University, Jalandhar
+        (2023–2027), currently in my final year. I completed my schooling at
+        Guru Harkishan Public School, Punjabi Bagh (CBSE).
+      </p>
+      <p>
+        I build websites using HTML, CSS, JavaScript, and WordPress, and I have
+        programming knowledge of Python, SQL, and C++. Alongside my studies, I founded
+        and run <strong>Cocokart</strong>, a personalised social-media and website-development
+        business, where I handle web development, digital marketing, and branding.
+      </p>
+      <p>
+        I'm a quick learner with a strong interest in software development, and I enjoy
+        solving problems and picking up new technologies.
+      </p>
+      <ul class="facts">
+        <li><span>🎓</span> B.Tech CSE, GNDU Jalandhar (2023–2027)</li>
+        <li><span>💼</span> Founder &amp; Digital Manager, Cocokart</li>
+        <li><span>🗣️</span> English · Punjabi · Hindi</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section alt">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>Programming</h3>
+        <ul><li>Python</li><li>SQL</li><li>C++</li></ul>
+      </div>
+      <div class="skill-card">
+        <h3>Web Development</h3>
+        <ul><li>HTML</li><li>CSS</li><li>JavaScript</li><li>WordPress</li></ul>
+      </div>
+      <div class="skill-card">
+        <h3>Tools</h3>
+        <ul><li>AI Tools</li><li>Canva</li><li>Git &amp; GitHub</li></ul>
+      </div>
+      <div class="skill-card">
+        <h3>Business &amp; Marketing</h3>
+        <ul><li>Digital Marketing</li><li>Branding (Meta Ads)</li><li>Business Development</li></ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+
+      <article class="project-card">
+        <div class="project-emoji">🎓</div>
+        <h3>Faculty Management System</h3>
+        <p>
+          A responsive web app to organise faculty data and contact information.
+          Supports add, search, edit, and delete with data saved in the browser.
+        </p>
+        <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        <div class="project-links">
+          <a href="../index.html">Live Demo</a>
+          <a href="https://github.com/ishpreetsuri/code-ishpreet" target="_blank" rel="noopener">Code</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-emoji">🛍️</div>
+        <h3>Cocokart</h3>
+        <p>
+          My personalised social-media and website-development business (B2C). I design
+          and develop websites, sell products online, and provide digital marketing and
+          branding solutions.
+        </p>
+        <div class="tags"><span>WordPress</span><span>Web Design</span><span>Marketing</span></div>
+        <div class="project-links">
+          <a href="https://www.cocokart.shop" target="_blank" rel="noopener">Visit Site</a>
+        </div>
+      </article>
+
+    </div>
+    <p class="more-soon">More projects coming soon as I keep building. 🚀</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section alt">
+    <h2 class="section-title">Get in Touch</h2>
+    <p class="contact-intro">
+      I'm open to internships and opportunities in web development and software.
+      Feel free to reach out!
+    </p>
+    <div class="contact-links">
+      <a href="mailto:ishpreet17suri@gmail.com" class="contact-item">
+        <span>📧</span> ishpreet17suri@gmail.com
+      </a>
+      <a href="https://www.linkedin.com/in/ishpreet-singh-a81920291" target="_blank" rel="noopener" class="contact-item">
+        <span>💼</span> LinkedIn
+      </a>
+      <a href="https://github.com/ishpreetsuri" target="_blank" rel="noopener" class="contact-item">
+        <span>🐙</span> GitHub
+      </a>
+      <a href="https://www.cocokart.shop" target="_blank" rel="noopener" class="contact-item">
+        <span>🛍️</span> Cocokart
+      </a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Ishpreet Singh · Built with HTML, CSS &amp; JavaScript</p>
+  </footer>
+
+  <script>
+    // Set the current year in the footer automatically
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

@@ -35,7 +35,7 @@ No build tools or installation needed.
 
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/ishpreetsuri/claude-ishpreet.git
+   git clone https://github.com/ishpreetsuri/code-ishpreet.git
    ```
 2. Open `index.html` in any modern web browser.
 
