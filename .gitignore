@@ -10,5 +10,8 @@ Thumbs.db
 # Logs
 *.log
 
+# Expense Tracker generated data (created when the program runs)
+expenses.csv
+
 # Node (in case tooling is added later)
 node_modules/
