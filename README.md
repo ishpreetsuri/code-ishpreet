@@ -64,7 +64,7 @@ I'm passionate about web development and entrepreneurship. I run **Cocokart**, a
 **Skills:** Python · SQL · C++ · HTML · CSS · JavaScript · WordPress · Digital Marketing
 
 - 🔗 LinkedIn: [ishpreet-singh](https://www.linkedin.com/in/ishpreet-singh-a81920291)
-- 🛍️ Business: [www.cocokart.shop](https://www.cocokart.shop)
+- 🛍️ Business: [Cocokart Archive](https://ishpreetsuri.github.io/cocokart-archive/)
 - 📧 Email: ishpreet17suri@gmail.com
 
 ---
