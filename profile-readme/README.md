@@ -2,7 +2,7 @@
 
 🤖 **Aspiring AI Engineer** | Final-year B.Tech Computer Science student at Guru Nanak Dev University, Jalandhar (2023–2027)
 ⚡ I build software with **Python, AI tools, and LLM-powered workflows**
-🛍️ **Founder of [Cocokart](https://www.cocokart.shop)** — a live e-commerce store (700+ orders, ₹2,00,000+ in sales)
+🛍️ **Founder of [Cocokart](https://ishpreetsuri.github.io/cocokart-archive/)** — a live e-commerce store (700+ orders, ₹2,00,000+ in sales)
 
 ---
 
@@ -35,7 +35,7 @@
 |---------|-------------|------|
 | [Faculty Management System](https://github.com/ishpreetsuri/code-ishpreet) | A responsive web app to manage faculty data (add, search, edit, delete) | HTML, CSS, JavaScript |
 | [Expense Tracker](https://github.com/ishpreetsuri/code-ishpreet/tree/main/python-expense-tracker) | A command-line app to track spending by category | Python |
-| [Cocokart](https://www.cocokart.shop) | My live e-commerce store (700+ orders, ₹2,00,000+ sales) | E-commerce, Marketing |
+| [Cocokart](https://ishpreetsuri.github.io/cocokart-archive/) | My live e-commerce store (700+ orders, ₹2,00,000+ sales) | E-commerce, Marketing |
 
 🌐 **Portfolio:** https://ishpreetsuri.github.io/code-ishpreet/portfolio/
 
@@ -50,7 +50,7 @@
 ### 🔗 Connect with Me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ishpreet-singh-a81920291)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ishpreet17suri@gmail.com)
-[![Website](https://img.shields.io/badge/Cocokart-FF6F61?style=for-the-badge&logo=shopify&logoColor=white)](https://www.cocokart.shop)
+[![Website](https://img.shields.io/badge/Cocokart-FF6F61?style=for-the-badge&logo=shopify&logoColor=white)](https://ishpreetsuri.github.io/cocokart-archive/)
 
 ---
 > 💡 *"Working toward AI Engineering — building real software with Python, AI tools, and LLM-powered workflows."*

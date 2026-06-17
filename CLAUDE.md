@@ -27,7 +27,7 @@ This file stores context about the repository owner so future sessions have cont
   "Aspiring AI Engineer" — honest framing (learning-in-progress, not claiming mastery).
 
 ## Business
-- **Cocokart** (www.cocokart.shop) — Founder & Digital Manager (2022–2025).
+- **Cocokart** (archived: ishpreetsuri.github.io/cocokart-archive) — Founder & Digital Manager (2022–2025).
   E-commerce store, B2C model. User-reported metrics: 700+ orders,
   ₹2,00,000+ in total sales. (Archived snapshot: github.com/ishpreetsuri/cocokart-archive)
 
