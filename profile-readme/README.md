@@ -33,6 +33,7 @@
 ### 📂 Featured Projects
 | Project | Description | Tech |
 |---------|-------------|------|
+| [AI Chatbot (Claude API)](https://github.com/ishpreetsuri/code-ishpreet/tree/main/ai-chatbot) | Multi-turn CLI chatbot using the Claude API — remembers conversation context | Python, LLM, REST API |
 | [Faculty Management System](https://github.com/ishpreetsuri/code-ishpreet) | A responsive web app to manage faculty data (add, search, edit, delete) | HTML, CSS, JavaScript |
 | [Expense Tracker](https://github.com/ishpreetsuri/code-ishpreet/tree/main/python-expense-tracker) | A command-line app to track spending by category | Python |
 | [Cocokart](https://ishpreetsuri.github.io/cocokart-archive/) | My live e-commerce store (700+ orders, ₹2,00,000+ sales) | E-commerce, Marketing |
